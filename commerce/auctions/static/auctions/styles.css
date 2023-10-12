@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.noLinkEffect, .noLinkEffect:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.menu-arrow {
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 30px solid #f2f2f2;
+    margin: auto;
+}
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+
+.card {
+    margin-bottom: 400px; /* Aumenta el espacio entre las tarjetas a tu preferencia */
+    border: 440px solid #fff; /* Establece el borde de las tarjetas como blanco */
+    border-radius: 5000px; /* Agrega bordes redondeados si lo deseas */
+    box-shadow: 0 4px 6px rgb(255, 255, 255); /* Agrega una sombra para dar profundidad */
+}
+
+
+
+.index-page .custom-cursor {
+    cursor: url('https://www.sahivalue.com/images/BUY.jpg'), auto !important;
+}
+
